@@ -42,25 +42,7 @@ export default function DashboardLayout({
       icon: ShoppingCart,
       current: pathname.startsWith("/dashboard/orders"),
       badge: "3",
-    },
-    {
-      name: "Talleres",
-      href: "/dashboard/courses",
-      icon: GraduationCap,
-      current: pathname.startsWith("/dashboard/courses"),
-    },
-    {
-      name: "Analíticas",
-      href: "/dashboard/analytics",
-      icon: BarChart3,
-      current: pathname.startsWith("/dashboard/analytics"),
-    },
-    {
-      name: "Configuración",
-      href: "/dashboard/settings",
-      icon: Settings,
-      current: pathname.startsWith("/dashboard/settings"),
-    },
+    }
   ]
 
   return (
