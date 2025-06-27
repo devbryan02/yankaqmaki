@@ -58,29 +58,35 @@ export default function AboutPage() {
 
   const team = [
     {
-      name: "María Elena Quispe",
+      name: "Pilar Mitma",
       role: "Fundadora & CEO",
       image: "/placeholder.svg?height=300&width=300",
       bio: "Artesana cusqueña con 20 años de experiencia en textiles andinos. Visionaria del comercio justo digital.",
     },
     {
-      name: "Carlos Mendoza",
+      name: "Percy Conde",
       role: "Director de Tecnología",
       image: "/placeholder.svg?height=300&width=300",
       bio: "Ingeniero de sistemas especializado en e-commerce y plataformas digitales para el desarrollo social.",
     },
     {
-      name: "Ana Lucia Torres",
+      name: "Mavel Trejo",
       role: "Directora de Artesanos",
       image: "/placeholder.svg?height=300&width=300",
       bio: "Antropóloga cultural experta en tradiciones artesanales peruanas y desarrollo comunitario.",
     },
     {
-      name: "Roberto Silva",
+      name: "Brandy Lopez",
       role: "Director Comercial",
       image: "/placeholder.svg?height=300&width=300",
       bio: "Especialista en comercio internacional con 15 años de experiencia en exportación de productos artesanales.",
     },
+    {
+      name: "Brayan Cardenas",
+      role: "Arquitecta de software",
+      image: "/placeholder.svg?height=300&width=300",
+      bio: "Experta en marketing digital y branding, apasionada por promover la cultura peruana a nivel global.",
+    }
   ]
 
   const values = [
@@ -159,7 +165,7 @@ export default function AboutPage() {
             </div>
             <div className="relative">
               <Image
-                src="/placeholder.svg?height=600&width=500"
+                src="https://previews.123rf.com/images/dmitriimusku/dmitriimusku2103/dmitriimusku210300324/166798990-about-us-page-concept-flat-illustration-corporate-profile-and-team-information-company-employees.jpg"
                 alt="Artesanos peruanos trabajando"
                 width={500}
                 height={600}
